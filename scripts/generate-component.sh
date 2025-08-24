@@ -23,7 +23,6 @@ if [ -f "$new_component_jsx" ]; then
 else
     echo "$new_component_jsx does not exist, creating..."
     content="import css from \"./$new_component_name.module.css\";
-import clsx from "clsx";
 
 const $new_component_name = ({
 
